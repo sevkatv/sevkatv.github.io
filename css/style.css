@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}	
+
+main {
+	width: 70%;
+	margin: auto;
+	padding: 50px;
+	background: #ffffff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow:  0 0 10px 1px rgba(0,0,0,0.2);
+
+}
+ body {
+ 	background: #efefef;
+ }
+
+ .photo {
+ 	width: calc(50% - 40px);
+ 	height: calc((35vw - 40px)/16 * 9);
+ 	margin: 20px;
+ 	background: red;
+ 	background-position: center; 
+    background-size: cover; 
+    transition: all 0.5s ease;
+}
+
+.photo:hover {
+	box-shadow:  0 0 20px 1px rgba(0,0,0,0.8);
+	transform: scale(1.2) rotate(-10deg);
+}
+
+h1 {
+	width: 100%;
+	font-size: 40px;
+	text-align: center;
+}
+
+.photo1 {
+	background-image: url(../img/1.webp); 
+}
+
+.photo2 {
+	background-image: url(../img/2.webp); 
+}
+
+.photo3 {
+	background-image: url(../img/3.webp); 
+}
+
+.photo4 {
+	background-image: url(../img/4.webp); 
+}
+
+.photo5 {
+	background-image: url(../img/5.webp); 
+}
+
+.photo6 {
+	background-image: url(../img/6.webp); 
+}
+
+.photo7 {
+	background-image: url(../img/7.webp); 
+}
+
+.photo8 {
+	background-image: url(../img/8.webp); 
+}
+
+.photo9 {
+	background-image: url(../img/9.webp); 
+}
+
+.photo10 {
+	background-image: url(../img/10.webp); 
+}
+
+.photo11 {
+	background-image: url(../img/11.webp); 
+}
+
+.photo12 {
+	background-image: url(../img/12.webp); 
+}
+
